@@ -1,0 +1,71 @@
+@import url(reset.css);
+
+body {
+   font-family: 'Roboto', sans-serif;
+   padding-top: 200px;
+   color: #F5F5F5;
+}
+
+.block-dog {
+   max-width: 1020px;
+   max-height: 700px;
+   border-radius: 40px;
+   margin: 0 auto;
+   padding-top: 100px;
+   background: #5D62B5;
+   position: relative;
+}
+
+.block-dog__container {
+   max-width: 846px;
+   margin: 0 auto;
+}
+
+.block-dog__sub-title {
+   font-weight: 700;
+   font-size: 12px;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   padding-left: 30px;
+   background-image: url("../images/mark.svg");
+   background-repeat: no-repeat;
+   background-position: 0px;
+   margin-bottom: 33px;
+}
+
+.block-dog__title {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 1.1;
+   color: #FFFFFF;
+   margin-bottom: 36px;
+}
+
+.block-dog__text {
+   line-height: 1.5;
+   letter-spacing: 0.15px;
+   margin-bottom: 54px;
+}
+
+
+.image-block {
+   position: relative;
+}
+
+.image-block__item-top {
+   position: relative;
+   z-index: 11;
+}
+
+.image-block__item-bottom {
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  z-index: 10;
+}
+
+.block-dog__circles {
+   position: absolute;
+   right: -78px;
+   top: -110px;
+}
